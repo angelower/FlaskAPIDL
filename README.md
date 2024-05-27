@@ -6,25 +6,18 @@ En este proyecto se tiene la siguiente distribución de carpetas y archivos:
 
 >model
 >>model_building.ipynb 
-
 >>fashion_mnist_model.h5
 
 >>test_img
-
 >>>fashion_mnist_example.png
-
 >>>fashion_mnist_example2.png
-
 >>>fashion_mnist_example3.png
 
 >>img
-
 >>>banner_bioudea.png
-
 >>>iris_flower.png
 
 >templates
-
 >>prediction.html
 
 >app.py
