@@ -15,7 +15,6 @@ En este proyecto se tiene la siguiente distribución de carpetas y archivos:
 
 >>img
 >>>banner_bioudea.png
->>>iris_flower.png
 
 >templates
 >>prediction.html
