@@ -43,11 +43,11 @@ Para este ejercicio usamos el problema de clasificación de las prendas de la ba
 ### 1. Creación del ambiente vitual.
 Primero debemos crear un ambiente virtual para instalar las dependencias necesarias para el proyecto.
 #### Para sistema operativo Windows
-- python -m venv mi_entorno
-- mi_entorno\Scripts\activate
+- python -m venv `mi_entorno`
+- `mi_entorno`\Scripts\activate
 #### Para sistema operativo Linux o Mac
-- python3 -m venv mi_entorno
-- source mi_entorno/Scripts/activate
+- python3 -m venv `mi_entorno`
+- source `mi_entorno`/Scripts/activate
 
 ### 2. Instalación de las dependecias de la API
 - pip install -r requirements.txt
