@@ -6,28 +6,42 @@ En este proyecto se tiene la siguiente distribución de carpetas y archivos:
 
 >model
 >>model_building.ipynb 
+
 >>fashion_mnist_model.h5
+
 >>test_img
+
 >>>fashion_mnist_example.png
+
 >>>fashion_mnist_example2.png
+
 >>>fashion_mnist_example3.png
+
 >>img
+
 >>>banner_bioudea.png
+
 >>>iris_flower.png
+
 >templates
+
 >>prediction.html
+
 >app.py
+
 >requirements.txt
+
 >README.md
+
 >.gitignore
 
 
-* ´model/model_building.ipynb´ - Notebook para entrenar y guardar el modelo en un archivo con extensión 'h5'
-* ´model/fashion_mnist_model.h5´ - Archivo que contiene el modelo entrenado
-* ´model/test_img.h5´ - Contiene imágenes para hacer pruebas del funcionamiento de la API
-* ´templates/prediction.html´ - Archivo HTML que se utiliza para mostrar la predicción
-* ´app.py´ - Archivo que contiene la lógica de la API
-* ´requirements.txt´ - Archivo que contiene las dependencias necesarias para el proyecto
+* `model/model_building.ipynb` - Notebook para entrenar y guardar el modelo en un archivo con extensión 'h5'
+* `model/fashion_mnist_model.h5` - Archivo que contiene el modelo entrenado
+* `model/test_img.h5` - Contiene imágenes para hacer pruebas del funcionamiento de la API
+* `templates/prediction.html` - Archivo HTML que se utiliza para mostrar la predicción
+* `app.py` - Archivo que contiene la lógica de la API
+* `requirements.txt` - Archivo que contiene las dependencias necesarias para el proyecto
 
 # Construir el modelo
 Para este ejercicio usamos el problema de clasificación de las prendas de la base de datos [FASHION MNIST](https://www.tensorflow.org/datasets/catalog/fashion_mnist?hl=es-419). Se entrena una Red Neuronal *fully connected*. El análisis de la base de datos, la contrucción del modelo en *tensorflow* y el entrenamiento de este se hace dentro del archivo `model_building.ipynb`.
